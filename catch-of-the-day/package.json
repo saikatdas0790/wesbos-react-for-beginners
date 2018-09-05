@@ -3,12 +3,18 @@
   "version": "0.0.3",
   "private": true,
   "devDependencies": {
+    "@types/react": "^16.4.13",
     "concurrently": "3.5.1",
     "react-scripts": "^1.1.4"
   },
   "dependencies": {
     "autoprefixer-stylus": "0.14.0",
+    "eslint": "^5.5.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-react": "^7.11.1",
     "firebase": "^4.10.1",
+    "prettier": "^1.14.2",
     "prop-types": "^15.6.0",
     "re-base": "3.2.2",
     "react": "^16.3.0-alpha.1",
