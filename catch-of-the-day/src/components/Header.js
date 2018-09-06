@@ -1,23 +1,19 @@
 import React, { Component } from "react";
 
-class Header extends Component {
-  render() {
-    return (
-      <header className="top">
-        <h1>
-          Catch
-          <span className="ofThe">
-            <span className="of">of</span>
-            <span className="the">the</span>
-          </span>
-          Day
-        </h1>
-        <h3 className="tagLine">
-          <span>Fresh Daily</span>
-        </h3>
-      </header>
-    );
-  }
-}
+const Header = ({ tagLine }) => (
+  <header className="top">
+    <h1>
+      Catch
+      <span className="ofThe">
+        <span className="of">of</span>
+        <span className="the">the</span>
+      </span>
+      Day
+    </h1>
+    <h3 className="tagLine">
+      <span>{tagLine}</span>
+    </h3>
+  </header>
+);
 
 export default Header;
